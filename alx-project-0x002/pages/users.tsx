@@ -13,7 +13,7 @@ const Users = () => {
   }, []);
   return (
     <>
-      <h1 className="font-bold text-xl">Posts Page</h1>
+      <h1 className="font-bold text-xl">Users Page</h1>
       <ul className="grid gap-4 py-4">
         {users.map((user) => (
           <li key={user.id}>
