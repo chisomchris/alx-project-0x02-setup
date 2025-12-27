@@ -3,6 +3,7 @@ import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
 import usePost from "@/hooks/usePost";
 import { useState } from "react";
+import Header from "@/components/layout/Header";
 
 const Home = () => {
   const [showModal, setShowModal] = useState<boolean>(false);

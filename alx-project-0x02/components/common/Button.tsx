@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interfaces";
+import { type ButtonProps } from "@/interfaces";
 import { cn } from "@/utils/cn";
 import React, { ReactNode } from "react";
 

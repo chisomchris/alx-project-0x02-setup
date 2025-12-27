@@ -1,12 +1,12 @@
 export interface CardProps {
   title: string;
-  content?: string;
+  content: string;
 }
 
 export interface PostProps extends CardProps {
   userId: string | number;
   id?: number;
-  body?: string;
+  body: string;
 }
 
 export interface ButtonProps {
